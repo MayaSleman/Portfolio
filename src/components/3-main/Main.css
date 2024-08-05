@@ -1,6 +1,7 @@
 main.flex{
     gap: 2.64rem;
     align-items: start;
+    overflow-x: hidden;
 }
 main section.left-section{
     flex-direction: column;

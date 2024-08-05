@@ -3,6 +3,9 @@ section.contact-us .icon-envelope{
     margin-right: 1rem;
     font-size: 1.8rem;
 }
+section.contact-us {
+    overflow-x: hidden;
+}
 section.contact-us .title{
     font-size: 2.1rem;
     color: var(--title);

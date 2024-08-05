@@ -1,5 +1,7 @@
 section.hero{
     margin-top: 3rem;
+    overflow-x: hidden;
+    display: block !important;
 }
 section.hero .parent-avatar{
     align-items: end;
