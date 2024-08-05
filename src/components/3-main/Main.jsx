@@ -1,10 +1,26 @@
 import React, { useState } from 'react'
 import "./Main.css"
+import Golobe from './../../../dist/images/golob.PNG'
+import focal from "./../../../dist/images/Focal X.PNG"
+import DevFolio from "./../../../dist/images/DevFolio.PNG"
+import Mealify from "./../../../dist/images/Mealify.PNG"
+import Zay from "./../../../dist/images/Zay Shop.PNG"
+import Portfolio from "./../../../dist/images/portfolio.PNG"
+import Cafe from "./../../../dist/images/thecafe.PNG"
+import Start from "./../../../dist/images/start.PNG"
+import CRUD from "./../../../dist/images/CRUD.PNG"
+import Search from "./../../../dist/images/CRUD with Search.PNG"
+import calculator from "./../../../dist/images/calculator.PNG"
+import phone from "./../../../dist/images/phone.PNG"
+import java from "./../../../dist/images/java.PNG"
+
+
+
 const myProjects=[
   {
   id:1,
   projectTitle:"Golobe-X",
-  image:"./../../../public/images/golob.PNG",
+  image:Golobe,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"react",
   demoLink:'https://ali8mohammad.github.io/Graduation-Project',
@@ -13,7 +29,7 @@ const myProjects=[
 {
   id:2,
   projectTitle:"Focal X",
-  image:"./../../../public/images/Focal X.PNG",
+  image:focal,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"react",
   demoLink:'https://mayasleman.github.io/Task8/',
@@ -22,7 +38,7 @@ const myProjects=[
 {
   id:3,
   projectTitle:"DevFolio",
-  image:"./../../../public/images/DevFolio.PNG",
+  image:DevFolio,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"bootstrap",
   demoLink:'https://mayasleman.github.io/devfolio/',
@@ -31,7 +47,7 @@ const myProjects=[
 {
   id:4,
   projectTitle:"Mealify",
-  image:"./../../../public/images/Mealify.PNG",
+  image:Mealify,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"bootstrap",
   demoLink:' https://mayasleman.github.io/Mealify/',
@@ -40,7 +56,7 @@ const myProjects=[
 {
   id:5,
   projectTitle:"Zay Shop",
-  image:"./../../../public/images/Zay Shop.PNG",
+  image:Zay,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"htmlCss",
   demoLink:' https://mayasleman.github.io/task5/',
@@ -49,7 +65,7 @@ const myProjects=[
 {
   id:6,
   projectTitle:"Portfolio",
-  image:"./../../../public/images/portfolio.PNG",
+  image:Portfolio,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"htmlCss",
   demoLink:' https://mayasleman.github.io/task3/',
@@ -58,7 +74,7 @@ const myProjects=[
 {
   id:7,
   projectTitle:"The Cafe",
-  image:"./../../../public/images/thecafe.PNG",
+  image:Cafe,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"htmlCss",
   demoLink:'https://mayasleman.github.io/task2-2/',
@@ -67,7 +83,7 @@ const myProjects=[
 {
   id:8,
   projectTitle:"Start Page",
-  image:"./../../../public/images/start.PNG",
+  image:Start,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"htmlCss",
   demoLink:'https://mayasleman.github.io/task2-1/',
@@ -76,7 +92,7 @@ const myProjects=[
 {
   id:9,
   projectTitle:"CRUD",
-  image:"./../../../public/images/CRUD.PNG",
+  image:CRUD,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"javascript",
   demoLink:' https://mayasleman.github.io/CRUD/',
@@ -85,7 +101,7 @@ const myProjects=[
 {
   id:10,
   projectTitle:"CRUD with Search",
-  image:"./../../../public/images/CRUD with Search.PNG",
+  image:Search,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"javascript",
   demoLink:'https://mayasleman.github.io/crud-with-search/',
@@ -94,7 +110,7 @@ const myProjects=[
 {
   id:11,
   projectTitle:"calculator",
-  image:"./../../../public/images/calculator.PNG",
+  image:calculator,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"javascript",
   demoLink:'https://mayasleman.github.io/calculator/',
@@ -103,7 +119,7 @@ const myProjects=[
 {
   id:12,
   projectTitle:"java script",
-  image:"./../../../public/images/phone.PNG",
+  image:phone,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"javascript",
   demoLink:' https://mayasleman.github.io/task7-2/',
@@ -112,7 +128,7 @@ const myProjects=[
 {
   id:13,
   projectTitle:"Java Script",
-  image:"./../../../public/images/java.PNG",
+  image:java,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"javascript",
   demoLink:' https://mayasleman.github.io/task7-1/',

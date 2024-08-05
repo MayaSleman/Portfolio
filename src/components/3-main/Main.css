@@ -90,7 +90,7 @@ main section.right-section{
     font-size: 0.9rem;
     color: var(--blue);
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     main.flex{
         flex-direction: column;
         align-items: center;

@@ -94,3 +94,12 @@ section.contact-us .submit{
     align-self: center;
 }
 }
+@media (max-width:576px) {
+    section.contact-us {
+        text-align: center;
+    }
+    section.contact-us form{
+        width: 100%;
+    }
+
+}

@@ -86,9 +86,6 @@ button:active{
   background-color: rgb(25, 118, 210);
 }
 @media (max-width:1000px) {
-  .container{
-    padding:0 1.7rem;
-  }
   .divider{
     width: calc(100% + 1.7rem + 1.7rem);
   margin-left: -1.7rem;

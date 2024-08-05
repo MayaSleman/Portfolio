@@ -54,3 +54,25 @@ section.hero .avatar{
        display:none;
    }
    }
+   @media (max-width: 576px) {
+      section.hero .icon-verified{
+          display:none;
+      }
+      section.hero .avatar{
+         width: 250px;
+         margin-top: 30px;
+         margin: 0 auto;
+     }
+     section.hero h1.title,
+     section.hero p.sub-title,
+     section.hero .all-icons
+     {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      section.hero h1.title{
+      font-size: 2rem;
+      }
+   }
