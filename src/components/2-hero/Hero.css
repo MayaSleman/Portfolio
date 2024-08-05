@@ -1,7 +1,6 @@
 section.hero{
     margin-top: 3rem;
-    overflow-x: hidden;
-    display: block !important;
+    overflow: hidden;
 }
 section.hero .parent-avatar{
     align-items: end;
@@ -76,5 +75,8 @@ section.hero .avatar{
       }
       section.hero h1.title{
       font-size: 2rem;
+      }
+      section.hero{
+         display: block;
       }
    }
