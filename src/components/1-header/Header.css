@@ -8,6 +8,7 @@ header.flex nav{
     padding: 0.77rem 1.6rem;
     border-radius: 55px;
     box-shadow: 1px 1px 40px #2323242a;
+    z-index: 100;
 }
 header ul.flex{
     gap: 100px;
@@ -42,6 +43,7 @@ header .fixed ul.modal{
     padding: 1rem 2rem;
     background-color: var(--secondary);
     animation:mymove  0.7s 1;
+    z-index: 100;
 }
 header .fixed ul.modal li{
     border-bottom:1px solid var(--border) ;

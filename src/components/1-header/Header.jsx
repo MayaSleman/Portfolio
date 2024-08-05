@@ -45,11 +45,15 @@ if(theme ==="light"){
           <li><button className='icon-close1' onClick={()=>{
             setshowModal(false)
           }}/></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Articles</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Speaking</a></li>
-            <li><a href="">Contact</a></li>
+             <li>
+            <HashLink smooth to="/#about">About</HashLink>
+          </li>
+          <li>
+            <HashLink smooth to="/#projects"> Projects</HashLink>
+          </li>
+          <li>
+            <HashLink smooth to="/#contact">Contact</HashLink>
+          </li>
           </ul>
         </div>
       )}
