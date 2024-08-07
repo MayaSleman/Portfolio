@@ -23,7 +23,7 @@ if(theme ==="light"){
       <nav>
         <ul className='flex'>
           <li>
-            <HashLink smooth to="/#about">About</HashLink>
+            <HashLink smooth to="/#about" className='active'>About</HashLink>
           </li>
           <li>
             <HashLink smooth to="/#projects"> Projects</HashLink>

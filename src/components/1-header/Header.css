@@ -61,11 +61,6 @@ header .fixed ul.modal li:first-child{
     border: none;
     padding: 0.2rem 0 0;
 }
-@keyframes mymove {
-    0%{scale: 0;}
-    60%{scale: 1.2;}
-    100%{scale: 100%;}
-}
 header button.mode ,header .icon-menu{
     background-color: var(--bgHeader);
     height: 2.4rem;
@@ -95,7 +90,14 @@ header .icon-close1:hover{
 header .icon-sun{
     color: rgb(255, 165, 0);
 }
-
+header .active{
+    color: var(--blue);
+}
+@keyframes mymove {
+    0%{scale: 0;}
+    60%{scale: 1.2;}
+    100%{scale: 100%;}
+}
 @media (max-width:768px) {
     header.flex nav{
         display: none;
