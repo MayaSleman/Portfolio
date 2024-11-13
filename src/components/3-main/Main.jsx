@@ -23,8 +23,8 @@ const myProjects=[
   image:Golobe,
   paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis impedit atque, quisquam quibusdam modi porro .",
   category:"react",
-  demoLink:'https://ali8mohammad.github.io/Graduation-Project',
-  link:'https://ali8mohammad.github.io/Graduation-Project',
+  demoLink:'https://mayasleman.github.io/Graduation-Project/',
+  link:'https://github.com/MayaSleman/Graduation-Project.git',
 },
 {
   id:2,
